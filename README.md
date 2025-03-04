@@ -58,12 +58,12 @@ services:
     security_opt:
       - seccomp:unconfined #optional
     environment:
-      - CUSTOM_USER=     #Replace username
-      - PASSWORD=    #Replace password
+      - CUSTOM_USER=incrisz     #Replace username
+      - PASSWORD=1ncrease    #Replace password
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - CHROME_CLI=https://github.com/0xmoei #optional
+      - CHROME_CLI=https://github.com/incrisz #optional
     volumes:
       - /root/chromium/config:/config
     ports:
